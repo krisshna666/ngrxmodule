@@ -1,0 +1,7 @@
+<h4 style="text-align: center;">List of Customers</h4>
+
+<div style="border: 1px solid #8888;text-align: center;box-shadow: 5px 10px #8888;background-color: white;" *ngFor="let customer of customers$ | async; let i=index">
+<br>
+  <span  >{{i+1}}.</span> {{customer.name}}<br><br><br>
+
+</div>
